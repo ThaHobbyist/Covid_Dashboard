@@ -2,6 +2,8 @@ body{
     background-color: #444444;
     color: white;
     margin: 0 auto;
+    font-family: 'Bebas Neue', cursive;
+    overflow: hidden;
 }
 
 .row1{
@@ -169,11 +171,19 @@ body{
 
 .heading h1{
     margin-left: 40px;
+    font-family: 'Righteous', cursive;
 }
 
 .card{
     margin-right: 10vw;
     padding-top: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 .selecter{

@@ -1,0 +1,30 @@
+@import "page.css";
+p{
+    color: #fff;
+    font-size: 25px;
+}
+a.link{ 
+    color: #54ffc8;
+    text-decoration: none;
+}
+.about{
+    max-width: 750px;
+    margin-left: 20px;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.45);
+}
+.about h5{
+    color: #fff;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+}

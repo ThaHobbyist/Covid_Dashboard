@@ -20,7 +20,7 @@ fetch("https://corona-api.com/countries")
         });
 
         getData('IN').then((res) => {
-            document.getElementById("country-selected").innerHTML = `<div>IN</div>`;
+            document.getElementById("country-selected").innerHTML = `<div>INDIA</div>`;
             displayData(res);
         });
     });
@@ -83,6 +83,19 @@ function displayData(resp){
         xaxis: {
             min: new Date(resp.data.timeline[resp.data.timeline.length - 1].date).getTime(),
             max: new Date(resp.data.timeline[0].date).getTime(),
+            labels: {
+                style: {
+                    color: "#ffffff"
+                },
+                datetimeUTC: true,
+                datetimeFormatter: {
+                    year: 'yyyy',
+                    month: "MMM 'yy",
+                    day: 'dd MMM',
+                    hour: 'HH:mm',
+                },
+            },
+            
         },
         yaxis: [
             {
